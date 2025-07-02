@@ -106,7 +106,7 @@ export default function AnimatedCheckbox({
       >
         {checked ? (
           <LinearGradient
-            colors={colors.gradient.primary}
+            colors={colors.gradient.primary as any}
             style={[styles.checkedContainer, { borderRadius: size / 2 }]}
             start={{ x: 0, y: 0 }}
             end={{ x: 1, y: 1 }}

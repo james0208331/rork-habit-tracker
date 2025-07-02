@@ -101,7 +101,7 @@ export default function HabitDetailScreen() {
         showsVerticalScrollIndicator={false}
       >
         <LinearGradient
-          colors={colors.gradient.background}
+          colors={colors.gradient.background as any}
           style={styles.headerGradient}
           start={{ x: 0, y: 0 }}
           end={{ x: 1, y: 1 }}
@@ -198,7 +198,7 @@ export default function HabitDetailScreen() {
             onPress={handleToggleToday}
           >
             <LinearGradient
-              colors={isCompletedToday ? colors.gradient.primary : colors.gradient.card}
+              colors={isCompletedToday ? (colors.gradient.primary as any) : (colors.gradient.card as any)}
               style={[
                 styles.todayButtonGradient,
                 !isCompletedToday && { 

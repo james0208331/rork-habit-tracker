@@ -20,7 +20,7 @@ export default function EmptyState({
   return (
     <View style={styles.container}>
       <LinearGradient
-        colors={colors.gradient.background}
+        colors={colors.gradient.background as any}
         style={[
           styles.backgroundGradient,
           {
@@ -46,7 +46,7 @@ export default function EmptyState({
         <View style={styles.content}>
           <View style={styles.iconContainer}>
             <LinearGradient
-              colors={colors.gradient.primary}
+              colors={colors.gradient.primary as any}
               style={[
                 styles.iconGradient,
                 {

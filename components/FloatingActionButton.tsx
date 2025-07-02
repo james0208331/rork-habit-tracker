@@ -90,7 +90,7 @@ export default function FloatingActionButton({
         onPressOut={handlePressOut}
       >
         <LinearGradient
-          colors={colors.gradient.primary}
+          colors={colors.gradient.primary as any}
           style={[
             styles.gradient, 
             { 

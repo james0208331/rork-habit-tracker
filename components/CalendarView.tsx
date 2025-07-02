@@ -52,7 +52,7 @@ export default function CalendarView({ habit, days = 7 }: CalendarViewProps) {
             ]}>
               {isCompleted ? (
                 <LinearGradient
-                  colors={colors.gradient.primary}
+                  colors={colors.gradient.primary as any}
                   style={styles.completedCircle}
                   start={{ x: 0, y: 0 }}
                   end={{ x: 1, y: 1 }}

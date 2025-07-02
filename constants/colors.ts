@@ -15,11 +15,11 @@ export default {
     shadow: "rgba(0, 0, 0, 0.08)",
     shadowLight: "rgba(0, 0, 0, 0.04)",
     gradient: {
-      primary: ["#3B82F6", "#60A5FA"] as const,
-      secondary: ["#F59E0B", "#FBBF24"] as const,
-      background: ["#F8FAFC", "#F1F5F9"] as const,
-      card: ["#FFFFFF", "#F8FAFC"] as const,
-      success: ["#10B981", "#34D399"] as const,
+      primary: ["#3B82F6", "#60A5FA"],
+      secondary: ["#F59E0B", "#FBBF24"],
+      background: ["#F8FAFC", "#F1F5F9"],
+      card: ["#FFFFFF", "#F8FAFC"],
+      success: ["#10B981", "#34D399"],
     },
   },
   dark: {
@@ -38,11 +38,11 @@ export default {
     shadow: "rgba(0, 0, 0, 0.3)",
     shadowLight: "rgba(0, 0, 0, 0.15)",
     gradient: {
-      primary: ["#60A5FA", "#93C5FD"] as const,
-      secondary: ["#FBBF24", "#FCD34D"] as const,
-      background: ["#0F172A", "#1E293B"] as const,
-      card: ["#1E293B", "#334155"] as const,
-      success: ["#34D399", "#6EE7B7"] as const,
+      primary: ["#60A5FA", "#93C5FD"],
+      secondary: ["#FBBF24", "#FCD34D"],
+      background: ["#0F172A", "#1E293B"],
+      card: ["#1E293B", "#334155"],
+      success: ["#34D399", "#6EE7B7"],
     },
   }
 };

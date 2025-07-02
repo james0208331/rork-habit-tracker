@@ -42,7 +42,7 @@ export default function StatsScreen() {
   return (
     <View style={[styles.container, { backgroundColor: colors.background }]}>
       <LinearGradient
-        colors={colors.gradient.background}
+        colors={colors.gradient.background as any}
         style={styles.headerGradient}
         start={{ x: 0, y: 0 }}
         end={{ x: 1, y: 1 }}
@@ -61,7 +61,7 @@ export default function StatsScreen() {
         showsVerticalScrollIndicator={false}
       >
         <LinearGradient
-          colors={colors.gradient.primary}
+          colors={colors.gradient.primary as any}
           style={[
             styles.mainStatCard,
             {
@@ -101,7 +101,7 @@ export default function StatsScreen() {
         
         <View style={styles.row}>
           <LinearGradient
-            colors={colors.gradient.secondary}
+            colors={colors.gradient.secondary as any}
             style={[styles.statCard, styles.halfCard]}
             start={{ x: 0, y: 0 }}
             end={{ x: 1, y: 1 }}

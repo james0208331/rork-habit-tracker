@@ -26,7 +26,7 @@ export default function StreakBadge({ streak, size = 'small' }: StreakBadgeProps
   
   // Use different icons based on streak length
   const IconComponent = streak >= 7 ? Award : Flame;
-  const gradientColors = streak >= 7 ? colors.gradient.success : colors.gradient.secondary;
+  const gradientColors = streak >= 7 ? (colors.gradient.success as any) : (colors.gradient.secondary as any);
   
   return (
     <View style={[

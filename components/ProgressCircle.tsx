@@ -69,7 +69,7 @@ export default function ProgressCircle({
     >
       {/* Enhanced background gradient with glow effect */}
       <ExpoLinearGradient
-        colors={colors.gradient.background}
+        colors={colors.gradient.background as any}
         style={[
           styles.backgroundGradient,
           {
